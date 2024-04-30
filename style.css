@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* header start */
+header{
+    width: 100%;
+    padding: 5px 60px;
+  
+}
+ .nav-item a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    font-family: 'poppins';
+    text-decoration: none;
+}
+
+.nav-item a:after{
+    content: '';
+    position: absolute;
+    background-color: #fe0000;
+    height: 3px;
+    width: 0;
+    height: 3px;
+    bottom: -10px;
+    transition: 0.3s;
+    left: 0;
+    bottom: -50px;
+}
+
+ .nav-item a:hover:after{
+    width: 100%;
+}
+
+ .nav-item a:hover{
+    color: #fe0000;
+    
+}
+
+@media (min-width:300px) and (max-width:1200px) {
+  
+}
+
+/* header end */
+/* banner start */
+
+/* banner end */
+/* about start */
+.about{
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.about .image img{
+    width: 90vh;
+
+}
+.about .contant h1{
+color: firebrick;
+font-size: 40px;
+font-weight: 600;
+}
+
+
+
+.about .contant p{
+    font-size: 18px;
+
+}
+
+
+.about .contant .btn{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+
+.about .contant .btn:hover{
+    background-color: #fe0000;
+    color: white;
+}
+
+
+/* about end */
+
+
+
+
+
+
+
+
+
